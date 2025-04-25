@@ -1,0 +1,37 @@
+.logo {
+    font-size: 1.5rem;
+  }
+  
+  .nav {
+    display: flex;
+    gap: 2rem;
+  }
+  
+  .nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.2s ease-in-out;
+  }
+  
+  .nav a:hover {
+    color: #00bcd4;
+  }
+  
+  .btn {
+    background: var(--btnBg);
+    color: var(--color-core-white);
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .btn:hover {
+    background: var(--color-core-blue-600);
+  }
+  
+  .btn:active {
+    background: var(--color-core-blue-700);
+  }
+  
